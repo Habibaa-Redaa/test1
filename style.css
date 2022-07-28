@@ -1,0 +1,202 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    max-height: 100rem;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav ul li{
+    margin: 1.5rem;
+    font-weight: bold;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover{
+    color: orangered;
+}
+.nav ul li span{
+    color: orangered;
+    font-size: 5rem;
+}
+.nav ul li h1{
+    position: relative;
+    top: -4.5rem;
+}
+.home{
+    position: relative;
+    top: -8rem;
+}
+.home img{
+    margin:3px;
+}
+.home .cont{
+    display: flex;
+}
+.home .one{
+    position: relative;
+    top: -10rem;
+    left: 2rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.home .one h4{
+    color: orangered;
+}
+.home .two{
+    position: relative;
+    top: -10rem;
+    left: 17rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.home .two h4{
+    color: orangered;
+}
+.home .three{
+    position: relative;
+    top: -11rem;
+    left: 31rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.home .three h4{
+    color: orangered;
+}
+.first{
+    background-color: rgb(34, 27, 21);
+    padding: 2rem;
+    position: relative;
+    top: -20rem;
+    margin: 5rem;
+    max-height: 5rem;
+
+}
+.first h3{
+    color: orangered;
+}
+.first h2{
+    color: #fff;
+    font-weight: bold;
+}
+.first .btn{
+    position: relative;
+    left: 65rem;
+    top: -6rem;
+    border: none;
+    color: #fff;
+    background-color: orangered;
+    width: 10rem;
+    height: 3.5rem;
+    cursor: pointer;
+}
+.section1{
+    margin: 5rem;
+    position: relative;
+    top: -20rem;
+}
+.section1 h3{
+    color: orangered;
+}
+.section1 h2{
+    font-weight: bold;
+}
+.section1 h4{
+    color: gray;
+}
+.section1 p{
+    color: rgb(99, 97, 97);
+}
+.section1 p a{
+    text-decoration: none;
+    color: blue;
+}
+.ab{
+    display: flex;
+}
+.ab p{
+    color: orangered;
+}
+.ab h4{
+    position: relative;
+    left: 30rem;
+    color: orangered;
+}
+.btn2{
+    background-color: orangered;
+    color: #fff;
+    width: 50rem;
+    height: 2.5rem;
+    border: none;
+
+}
+.aside{
+    padding: 5px;
+    width: 500px;
+    position: relative;
+    left: 60rem;
+    top: -108rem;
+    z-index: 5;
+}
+ul{
+    list-style-type: none;
+}
+.aside ul li{
+    margin: 1.5rem;
+    font-weight: bold;
+
+}
+.section1 hr{
+    width: 800px;
+    position: relative;
+    left: -20rem;
+}
+.aside h5{
+    color: gray;
+}
+.x span{
+    display: inline-block;
+    color: gray;
+    border: 2px solid gray;
+    margin: 5px;
+    padding: 5px;
+}
+.footer{
+    background-color:rgb(34, 27, 21); 
+    color: #fff;
+    min-height: 20rem;
+    position: relative;
+    top: -80rem;
+
+}
+.footer ul{
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 25rem;
+
+
+}
+.footer ul li{
+        margin: 1.5rem;
+        text-align: center;
+}
+.footer p{
+    text-align: center;
+    margin: 5rem;
+}
+.footer hr{
+    color: gray;
+}
+.footer p a{
+    color: orangered;
+    text-decoration: none;
+}
+
